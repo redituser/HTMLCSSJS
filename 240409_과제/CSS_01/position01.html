@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model - Margine</title>
+    <style>
+        div {
+          width: 100px;
+          height : 100px;
+          margin : 30px;
+          position: absolute;
+
+        }
+
+        #blue {
+          background-color: blue;
+          top: 10px;
+          left: 10px;
+          z-index: 3;
+        }
+
+        #red {
+          background-color: red;
+          top: 50px;
+          left: 50px;
+          z-index: 2;
+        }
+
+        #green {
+          background-color: green;
+          top: 90px;
+          left: 90px;
+          z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="blue"></div>
+    <div id="red"></div>
+    <div id="green"></div>
+</body>
+</html>

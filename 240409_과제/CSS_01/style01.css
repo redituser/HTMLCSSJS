@@ -1,0 +1,48 @@
+/* *{
+  color: orange;
+} */
+
+h1, h3 {
+  color:rgba(109, 94, 177, 0.904);
+  background-color: lightblue;
+}
+
+.center{
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+
+.description {
+  color:brown;
+  font-family: "Nanum Pen Script", cursive;
+  top: 10px;
+  left: 10px;
+  
+}
+
+#degree {
+  color:red;
+  background-color: yellow;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+p {
+  color: orange;
+}
+
+/* .a { font-size: 100%;}
+.b { font-size: 150%;}
+.c { font-size: 200%;} */
+
+.a { font-size: 1.0em;}
+.b { font-size: 1.5em;}
+.c { font-size: 2.0em;}
+
+/* .a { font-size: 15px;}
+.b { font-size: 20px;}
+.c { font-size: 25px;} */
+
+.parent { font-size: 30px;}

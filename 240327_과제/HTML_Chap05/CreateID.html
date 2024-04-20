@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header><h1>온라인 서점 회원가입 페이지</h1></header>
+  <nav></nav>
+  <section>
+    <article>
+      <fieldset>
+        <legend>회원 기본 정보</legend>
+        <p>
+          <label for="userid">아이디 : </label>
+          <input type="text" id="userid" value="아이디 입력">
+        </p>
+        <p>
+          <label for="passwd">비밀번호 : </label>
+          <input type="password" id="passwd">
+        </p>
+        <p>
+          <label for="name">이름 : </label>
+          <input type="text" id="name">
+        </p>
+      </fieldset>
+    </article>
+    <br>
+    <article>
+      <fieldset>
+        <legend>회원 기본 정보</legend>
+        <p>
+          <label for="userid">이메일 : </label>
+          <input type="text" id="userid" value="email@gmail.com">
+        </p>
+        <p>
+          <label for="number">휴대전화 : </label>
+          <input type="text" id="number" value="010-****-****">
+        </p>
+      </fieldset>
+    </article>
+    <br>
+    <article>
+      <fieldset>
+        <legend>추가 정보</legend>
+        <p>
+          <label for="day">생년월일 : </label>
+          <input type="date" id="day" value="연도-월-일" min="1970-01-01" max="2023-12-31">
+        </p>
+        <p>
+          <label for="name">성별 : </label>
+          <td>
+            <input id="man" type="radio" name="gender" value="m">
+            <label for="man">남자</label>
+            <input id="woman" type="radio" name="gender" value="w">
+            <label for="woman">여자</label>
+            <input if="nothing" type="radio" name="gender" value="n">
+            <label for="nathing">선택하지 않음</label>
+          </td>
+        </p>
+        <p>
+          <label for="name">관심사 : </label>
+          <td>
+            <input id="Java" type="checkbox" name="interest" value="j">
+            <label for="Java">Java</label>
+            <input id="HTML" type="checkbox" name="interest" value="h">
+            <label for="HTML">HTML</label>
+            <input id="CSS" type="checkbox" name="interest" value="C">
+            <label for="CSS">Java</label>
+            <input id="JS" type="checkbox" name="interest" value="js">
+            <label for="JS">javascript</label>
+            <input id="Algo" type="checkbox" name="interest" value="a">
+            <label for="Algo">Algorithm</label>
+          </td>
+        </p>
+        <p>
+          <label for="name">본인 사진 : </label>
+          <input type="file" name="file" value="file">
+        </p>
+      </fieldset>
+    </article>
+  </section>
+  
+</body>
+</html>
